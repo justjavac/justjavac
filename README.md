@@ -6,5 +6,3 @@
 > Currently a contributor to Deno.
 
 https://justjavac.com
-
-[#javascript](https://github.com/topics/javascript) [#deno](https://github.com/topics/deno) [#typescript](https://github.com/topics/typescript)
