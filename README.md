@@ -5,4 +5,4 @@
 > I'm the creator of vscode-deno.  
 > Currently a contributor to Deno.
 
-https://justjavac.com
+🔗 <a href="https://justjavac.com" target="_blank">https://justjavac.com</a>
