@@ -1,7 +1,6 @@
-I am the creator of vscode-deno. Currently a contributor to Deno.
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=justjavac&show_icons=true&icon_color=805AD5&text_color=718096&bg_color=ffffff&hide_title=true" />
 
-- 🔭 I’m currently working on [typescript-deno-plugin](https://www.npmjs.com/package/typescript-deno-plugin)
-- 🌱 I’m currently learning Rust
-- 👯 I’m looking to collaborate on [vscode-deno](https://github.com/denoland/vscode_deno)
-- 💬 Ask me about [Anything](https://github.com/justjavac/justjavac/issues)
-- ⚡ Fun fact: ...
+> Creator of vscode-deno.  
+> Currently a contributor to Deno.
+
+https://justjavac.com
