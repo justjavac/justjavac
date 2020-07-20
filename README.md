@@ -2,7 +2,7 @@
 
 #### Hello 👏
 
-> I'm the creator of vscode-deno.  
+> I'm the creator of [vscode-deno](https://github.com/denoland/deno).  
 > Currently a contributor to Deno.
 
-🔗 <a href="https://justjavac.com" target="_blank">https://justjavac.com</a>
+🔗 https://justjavac.com
