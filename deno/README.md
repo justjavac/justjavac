@@ -24,9 +24,9 @@ justjavac's Deno Modules.
 | [ci][]             | Get environment variables exposed by CI services                                                |
 | [color_name][]     | A list of color names and its values                                                            |
 | [ieee754][]        | Parse IEEE754 floating point numbers for Deno                                                   |
-| [build][]          |                                                                                                 |
+| [build][]          | _WIP_                                                                                           |
 | [language][]       | ISO 639-1 language                                                                              |
-| [cli][]            |                                                                                                 |
+| [cli][]            | _WIP_                                                                                           |
 | [x256][]           | Find the nearest xterm 256 color index for an rgb                                               |
 | [case][]           | Convert strings between camelCase, PascalCase, Title Case, snake_case and more                  |
 | [longest][]        | Get the length of the longest item in an array.                                                 |
@@ -51,13 +51,13 @@ justjavac's Deno Modules.
 | [latest_version][] | Get the latest version of Deno module                                                           |
 | [version_info][]   | Get version info of Deno module                                                                 |
 | [ftp][]            | FTP client for Deno.                                                                            |
-| [wechat][]         |                                                                                                 |
+| [wechat][]         | WeChat API for Deno.                                                                            |
 | [ansi][]           | ANSI escape codes for manipulating the terminal                                                 |
 | [ctrlc][]          | Cross platform handling of Ctrl-C signals.                                                      |
 | [curl][]           | curl for Deno                                                                                   |
 | [ssh][]            | Bindings to libssh2 for interacting with SSH servers and executing remote commands, forwarding local ports, etc. |
-| [pkg][]            |                                                                                                 |
-| [runtime][]        |                                                                                                 |
+| [pkg][]            | _WIP_                                                                                           |
+| [runtime][]        | _WIP_                                                                                           |
 | [getpass][]        | Safely read passwords in a console application on Linux, OSX and Windows                        |
 | [video_dir][]      | Returns the path to the user's video directory.                                                 |
 | [tmp_dir][]        | Returns the path to the user's tmp directory.                                                   |
@@ -74,12 +74,12 @@ justjavac's Deno Modules.
 | [cache_dir][]      | Returns the path to the user's cache directory.                                                 |
 | [data_local_dir][] | Returns the path to the user's local data directory.                                            |
 | [data_dir][]       | Returns the path to the user's data directory.                                                  |
-| [password][]       |                                                                                                 |
-| [serverless][]     |                                                                                                 |
+| [password][]       | _WIP_                                                                                           |
+| [serverless][]     | _WIP_                                                                                           |
 | [machine_id][]     | Unique machine (desktop) id (no admin privileges required)                                      |
 | [dirs][]           | Returns the user and platform specific directories                                              |
 | [domain][]         | Get all the top-level domains, including gTLDs such as `.com`, and country-code TLDs such as `.uk`. |
-| [dui][]            |                                                                                                 |
+| [dui][]            | _WIP_                                                                                           |
 | [justjavac][]      | justjavac's modules                                                                             |
 | [jjc][]            | justjavac's modules                                                                             |
 | [git][]            | libgit2 bindings for Deno                                                                       |
