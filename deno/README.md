@@ -11,7 +11,7 @@ justjavac's Deno Modules.
 | Module             | Description                                                                                     |
 |--------------------|-------------------------------------------------------------------------------------------------|
 | [dvm][]            | Deno Version Manager - Easy way to manage multiple active deno versions.                        |
-| [ffmpeg][]         | ffmpeg module for Deno                                                                          |
+| [ffmpeg][]         | ffmpeg module for Deno [WASM]                                                                   |
 | [string][]         | Deno string utils.                                                                              |
 | [unicode][]        | Unicode lookup table for Deno                                                                   |
 | [starter][]        | Deno starter for creating a module                                                              |
