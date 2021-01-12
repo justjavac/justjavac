@@ -21,5 +21,5 @@ jobs:
       - name: Lint
         run: deno lint --unstable
 
-      - name: Tests
-        run: deno test --unstable --coverage
+      # - name: Tests
+      #   run: deno test --unstable --coverage
