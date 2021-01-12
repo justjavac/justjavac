@@ -4,10 +4,6 @@
 [![Build Status](https://github.com/justjavac/justjavac/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/justjavac/actions)
 [![license](https://img.shields.io/github/license/justjavac/justjavac)](https://github.com/justjavac/justjavac/blob/master/LICENSE)
 
-justjavac's Deno Modules.
-
-## Modules
-
 | Module             | Description                                                                                     |
 |--------------------|-------------------------------------------------------------------------------------------------|
 | [dvm][]            | Deno Version Manager - Easy way to manage multiple active deno versions.                        |
