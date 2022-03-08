@@ -4,82 +4,82 @@
 [![Build Status](https://github.com/justjavac/justjavac/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/justjavac/actions)
 [![license](https://img.shields.io/github/license/justjavac/justjavac)](https://github.com/justjavac/justjavac/blob/master/LICENSE)
 
-| Module             | Description                                                                                     |
-|--------------------|-------------------------------------------------------------------------------------------------|
-| [dvm][]            | Deno Version Manager - Easy way to manage multiple active deno versions.                        |
-| [ffmpeg][]         | ffmpeg module for Deno [WASM]                                                                   |
-| [string][]         | Deno string utils.                                                                              |
-| [unicode][]        | Unicode lookup table for Deno                                                                   |
-| [starter][]        | Deno starter for creating a module                                                              |
-| [semver][]         | The semver parser for Deno (a fork of node-semver using TypeScript)                             |
-| [vendors][]        | List of vendor prefixes known to the web platform                                               |
-| [thanos][]         | This command could delete a half of your files randomly.                                        |
-| [murmurhash][]     | An incremental implementation of MurmurHash3 for JavaScript                                     |
-| [username][]       | Get the username of the current user                                                            |
-| [slash][]          | Convert Windows backslash paths to slash paths                                                  |
-| [ci][]             | Get environment variables exposed by CI services                                                |
-| [color_name][]     | A list of color names and its values                                                            |
-| [ieee754][]        | Parse IEEE754 floating point numbers for Deno                                                   |
-| [build][]          | _WIP_                                                                                           |
-| [language][]       | ISO 639-1 language                                                                              |
-| [cli][]            | _WIP_                                                                                           |
-| [x256][]           | Find the nearest xterm 256 color index for an rgb                                               |
-| [case][]           | Convert strings between camelCase, PascalCase, Title Case, snake_case and more                  |
-| [longest][]        | Get the length of the longest item in an array.                                                 |
-| [text_indent][]    | Sets the length of empty space (indentation) that is put before lines of text in a block.       |
-| [word_wrap][]      | Wrap words to a specified length.                                                               |
-| [letter_spacing][] | Set the horizontal spacing behavior between text characters.                                    |
-| [is_running][]     | Return true if the given PID is running.                                                        |
-| [num_cpus][]       | Get the number of CPUs available on the current system.                                         |
-| [dijkstra][]       | A simple JavaScript implementation of Dijkstra's single-source shortest-paths algorithm.        |
-| [module_info][]    | Get module info                                                                                 |
-| [shuffle][]        | The Fisher-Yates (aka Knuth) shuffle for Deno.                                                  |
-| [tauri][]          | tauri binding for Deno.                                                                         |
-| [is_git][]         | Whether the filepath is a git repository.                                                       |
-| [is][]             | Detect the running environment and context of the current script                                |
-| [is_free_port][]   | Return true if a port is free.                                                                  |
-| [is_absolute][]    | [deprecated] Whether the filepath is a absolute file path.                                      |
-| [is_relative][]    | Whether the filepath is a relative file path.                                                   |
-| [is_ssh][]         | Whether the process is running inside SSH.                                                      |
-| [is_unc_path][]    | Whether the filepath is a windows UNC file path.                                                |
-| [hyper][]          | Fast and safe HTTP for Deno                                                                     |
-| [actix][]          | Actix binding for Deno                                                                          |
-| [latest_version][] | Get the latest version of Deno module                                                           |
-| [version_info][]   | Get version info of Deno module                                                                 |
-| [ftp][]            | FTP client for Deno.                                                                            |
-| [wechat][]         | WeChat API for Deno.                                                                            |
-| [ansi][]           | ANSI escape codes for manipulating the terminal                                                 |
-| [ctrlc][]          | Cross platform handling of Ctrl-C signals.                                                      |
-| [curl][]           | curl for Deno                                                                                   |
-| [ssh][]            | Bindings to libssh2 for interacting with SSH servers and executing remote commands, forwarding local ports, etc. |
-| [pkg][]            | _WIP_                                                                                           |
-| [runtime][]        | _WIP_                                                                                           |
-| [getpass][]        | Safely read passwords in a console application on Linux, OSX and Windows                        |
-| [video_dir][]      | Returns the path to the user's video directory.                                                 |
-| [tmp_dir][]        | Returns the path to the user's tmp directory.                                                   |
-| [template_dir][]   | Returns the path to the user's template directory.                                              |
-| [public_dir][]     | Returns the path to the user's public directory.                                                |
-| [picture_dir][]    | Returns the path to the user's picture directory.                                               |
-| [font_dir][]       | Returns the path to the user's font directory.                                                  |
-| [download_dir][]   | Returns the path to the user's download directory.                                              |
-| [document_dir][]   | Returns the path to the user's document directory.                                              |
-| [desktop_dir][]    | Returns the path to the user's desktop directory.                                               |
-| [audio_dir][]      | Returns the path to the user's audio directory.                                                 |
-| [executable_dir][] | Returns the path to the user's executable directory.                                            |
-| [config_dir][]     | Returns the path to the user's config directory.                                                |
-| [cache_dir][]      | Returns the path to the user's cache directory.                                                 |
-| [data_local_dir][] | Returns the path to the user's local data directory.                                            |
-| [data_dir][]       | Returns the path to the user's data directory.                                                  |
-| [password][]       | _WIP_                                                                                           |
-| [serverless][]     | _WIP_                                                                                           |
-| [machine_id][]     | Unique machine (desktop) id (no admin privileges required)                                      |
-| [dirs][]           | Returns the user and platform specific directories                                              |
-| [domain][]         | Get all the top-level domains, including gTLDs such as `.com`, and country-code TLDs such as `.uk`. |
-| [dui][]            | _WIP_                                                                                           |
-| [justjavac][]      | justjavac's modules                                                                             |
-| [jjc][]            | justjavac's modules                                                                             |
-| [git][]            | libgit2 bindings for Deno                                                                       |
-| [github][]         | The GitHub API for Deno                                                                         |
+| Module                           | Description                                                                                                      |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [dvm][dvm]                       | Deno Version Manager - Easy way to manage multiple active deno versions.                                         |
+| [ffmpeg][ffmpeg]                 | ffmpeg module for Deno [WASM]                                                                                    |
+| [string][string]                 | Deno string utils.                                                                                               |
+| [unicode][unicode]               | Unicode lookup table for Deno                                                                                    |
+| [starter][starter]               | Deno starter for creating a module                                                                               |
+| [semver][semver]                 | The semver parser for Deno (a fork of node-semver using TypeScript)                                              |
+| [vendors][vendors]               | List of vendor prefixes known to the web platform                                                                |
+| [thanos][thanos]                 | This command could delete a half of your files randomly.                                                         |
+| [murmurhash][murmurhash]         | An incremental implementation of MurmurHash3 for JavaScript                                                      |
+| [username][username]             | Get the username of the current user                                                                             |
+| [slash][slash]                   | Convert Windows backslash paths to slash paths                                                                   |
+| [ci][ci]                         | Get environment variables exposed by CI services                                                                 |
+| [color_name][color_name]         | A list of color names and its values                                                                             |
+| [ieee754][ieee754]               | Parse IEEE754 floating point numbers for Deno                                                                    |
+| [build][build]                   | _WIP_                                                                                                            |
+| [language][language]             | ISO 639-1 language                                                                                               |
+| [cli][cli]                       | _WIP_                                                                                                            |
+| [x256][x256]                     | Find the nearest xterm 256 color index for an rgb                                                                |
+| [case][case]                     | Convert strings between camelCase, PascalCase, Title Case, snake_case and more                                   |
+| [longest][longest]               | Get the length of the longest item in an array.                                                                  |
+| [text_indent][text_indent]       | Sets the length of empty space (indentation) that is put before lines of text in a block.                        |
+| [word_wrap][word_wrap]           | Wrap words to a specified length.                                                                                |
+| [letter_spacing][letter_spacing] | Set the horizontal spacing behavior between text characters.                                                     |
+| [is_running][is_running]         | Return true if the given PID is running.                                                                         |
+| [num_cpus][num_cpus]             | Get the number of CPUs available on the current system.                                                          |
+| [dijkstra][dijkstra]             | A simple JavaScript implementation of Dijkstra's single-source shortest-paths algorithm.                         |
+| [module_info][module_info]       | Get module info                                                                                                  |
+| [shuffle][shuffle]               | The Fisher-Yates (aka Knuth) shuffle for Deno.                                                                   |
+| [tauri][tauri]                   | tauri binding for Deno.                                                                                          |
+| [is_git][is_git]                 | Whether the filepath is a git repository.                                                                        |
+| [is][is]                         | Detect the running environment and context of the current script                                                 |
+| [is_free_port][is_free_port]     | Return true if a port is free.                                                                                   |
+| [is_absolute][is_absolute]       | [deprecated] Whether the filepath is a absolute file path.                                                       |
+| [is_relative][is_relative]       | Whether the filepath is a relative file path.                                                                    |
+| [is_ssh][is_ssh]                 | Whether the process is running inside SSH.                                                                       |
+| [is_unc_path][is_unc_path]       | Whether the filepath is a windows UNC file path.                                                                 |
+| [hyper][hyper]                   | Fast and safe HTTP for Deno                                                                                      |
+| [actix][actix]                   | Actix binding for Deno                                                                                           |
+| [latest_version][latest_version] | Get the latest version of Deno module                                                                            |
+| [version_info][version_info]     | Get version info of Deno module                                                                                  |
+| [ftp][ftp]                       | FTP client for Deno.                                                                                             |
+| [wechat][wechat]                 | WeChat API for Deno.                                                                                             |
+| [ansi][ansi]                     | ANSI escape codes for manipulating the terminal                                                                  |
+| [ctrlc][ctrlc]                   | Cross platform handling of Ctrl-C signals.                                                                       |
+| [curl][curl]                     | curl for Deno                                                                                                    |
+| [ssh][ssh]                       | Bindings to libssh2 for interacting with SSH servers and executing remote commands, forwarding local ports, etc. |
+| [pkg][pkg]                       | _WIP_                                                                                                            |
+| [runtime][runtime]               | _WIP_                                                                                                            |
+| [getpass][getpass]               | Safely read passwords in a console application on Linux, OSX and Windows                                         |
+| [video_dir][video_dir]           | Returns the path to the user's video directory.                                                                  |
+| [tmp_dir][tmp_dir]               | Returns the path to the user's tmp directory.                                                                    |
+| [template_dir][template_dir]     | Returns the path to the user's template directory.                                                               |
+| [public_dir][public_dir]         | Returns the path to the user's public directory.                                                                 |
+| [picture_dir][picture_dir]       | Returns the path to the user's picture directory.                                                                |
+| [font_dir][font_dir]             | Returns the path to the user's font directory.                                                                   |
+| [download_dir][download_dir]     | Returns the path to the user's download directory.                                                               |
+| [document_dir][document_dir]     | Returns the path to the user's document directory.                                                               |
+| [desktop_dir][desktop_dir]       | Returns the path to the user's desktop directory.                                                                |
+| [audio_dir][audio_dir]           | Returns the path to the user's audio directory.                                                                  |
+| [executable_dir][executable_dir] | Returns the path to the user's executable directory.                                                             |
+| [config_dir][config_dir]         | Returns the path to the user's config directory.                                                                 |
+| [cache_dir][cache_dir]           | Returns the path to the user's cache directory.                                                                  |
+| [data_local_dir][data_local_dir] | Returns the path to the user's local data directory.                                                             |
+| [data_dir][data_dir]             | Returns the path to the user's data directory.                                                                   |
+| [password][password]             | _WIP_                                                                                                            |
+| [serverless][serverless]         | _WIP_                                                                                                            |
+| [machine_id][machine_id]         | Unique machine (desktop) id (no admin privileges required)                                                       |
+| [dirs][dirs]                     | Returns the user and platform specific directories                                                               |
+| [domain][domain]                 | Get all the top-level domains, including gTLDs such as `.com`, and country-code TLDs such as `.uk`.              |
+| [dui][dui]                       | _WIP_                                                                                                            |
+| [justjavac][justjavac]           | justjavac's modules                                                                                              |
+| [jjc][jjc]                       | justjavac's modules                                                                                              |
+| [git][git]                       | libgit2 bindings for Deno                                                                                        |
+| [github][github]                 | The GitHub API for Deno                                                                                          |
 
 [dvm]: https://deno.land/x/dvm
 [ffmpeg]: https://deno.land/x/ffmpeg
@@ -158,4 +158,5 @@
 
 ### License
 
-[justjavac](https://github.com/justjavac/justjavac) is released under the MIT License. See the bundled [LICENSE](../LICENSE) file for details.
+[justjavac](https://github.com/justjavac/justjavac) is released under the MIT
+License. See the bundled [LICENSE](../LICENSE) file for details.
