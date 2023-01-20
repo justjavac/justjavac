@@ -1,5 +1,5 @@
 <a href="https://github.com/justjavac#gh-light-mode-only">
-  <img align="right" src="github-readme-stats-one-mu-82.vercel.app/api?username=justjavac&show_icons=true&icon_color=805AD5&text_color=718096&bg_color=ffffff&hide_title=true#gh-light-mode-only" />
+  <img align="right" src="https://github-readme-stats-one-mu-82.vercel.app/api?username=justjavac&show_icons=true&icon_color=805AD5&text_color=718096&bg_color=ffffff&hide_title=true#gh-light-mode-only" />
 </a>
 
 <a href="https://github.com/justjavac#gh-dark-mode-only">
