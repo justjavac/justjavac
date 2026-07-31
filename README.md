@@ -1,9 +1,9 @@
 <a href="https://github.com/justjavac#gh-light-mode-only">
-  <img align="right" src="https://github-readme-stats-one-mu-82.vercel.app/api?username=justjavac&show_icons=true&icon_color=805AD5&text_color=718096&bg_color=ffffff&hide_title=true#gh-light-mode-only" />
+  <img align="right" src="https://ghstats.dev/api/card?username=justjavac&theme=light&hide_title=true&hide=commits%2Cissues%2Cactive_day%2Cweek%2Ctrend%2Chours#gh-light-mode-only" />
 </a>
 
 <a href="https://github.com/justjavac#gh-dark-mode-only">
-  <img align="right" src="https://github-readme-stats-one-mu-82.vercel.app/api?username=justjavac&show_icons=true&hide_title=true&theme=merko#gh-dark-mode-only" />
+  <img align="right" src="https://ghstats.dev/api/card?username=justjavac&hide_title=true&hide=commits%2Cissues%2Cactive_day%2Cweek%2Ctrend%2Chours#gh-dark-mode-only" />
 </a>
 
 #### Hello 👏
